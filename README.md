@@ -73,6 +73,12 @@ npm update eslint-utils --depth 2
 npm audit fix
 ```
 
+## How to publish in npm
+```bash
+npm adduser
+npm publish
+```
+
 # Contributing
 If someone wants to add or improve something, I invite you to collaborate directly in this repository: randon-names
 
