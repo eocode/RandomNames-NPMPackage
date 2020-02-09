@@ -1,6 +1,6 @@
 {
   "name": "random-messages-eocode-platzi",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Random messages a global package",
   "main": "src/index.js",
   "scripts": {
@@ -14,10 +14,19 @@
   "author": "MIT",
   "license": "ISC",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
   "preferGlobal": true,
   "dependencies": {
     "user": "0.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eocode/random-names-npm-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eocode/random-names-npm-package/issues"
+  },
+  "homepage": "https://github.com/eocode/random-names-npm-package#readme"
 }
